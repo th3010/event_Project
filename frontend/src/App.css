@@ -1,0 +1,40 @@
+/* 1. Rule cơ bản */
+.event-detail-container {
+    background-color: #121212;
+    min-height: 100vh;
+}
+
+/* 2. Rule tùy chỉnh font và màu */
+.text-mint {
+    color: #00ffcc !important;
+}
+
+/* 3. Pseudo class 1: Hiệu ứng hover cho thẻ EventCard (Đáp ứng yêu cầu thay đổi layout/style khi có sự kiện chuột) */
+.card-dark {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-dark:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 255, 204, 0.2) !important;
+}
+
+/* 4. Pseudo class 2: Hiệu ứng hover cho nút bấm đặc biệt */
+.btn-mint {
+    background-color: #00ffcc;
+    color: #121212;
+    border: none;
+    transition: all 0.2s;
+}
+
+.btn-mint:hover {
+    background-color: #00e6b8;
+    color: #000;
+    transform: scale(1.02); /* Phóng to nhẹ khi đưa chuột vào */
+}
+
+/* 5. Rule cho phần chữ agenda */
+.agenda-time {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+}

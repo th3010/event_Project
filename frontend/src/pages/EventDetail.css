@@ -1,0 +1,58 @@
+/* Màu xanh mint đặc trưng cho web sự kiện */
+.text-mint {
+    color: #00ffcc;
+}
+
+.btn-mint {
+    background-color: #00ffcc;
+    color: #121212;
+    border: none;
+}
+.btn-mint:hover {
+    background-color: #00e6b8;
+    color: #121212;
+}
+.btn-outline-mint {
+    color: #00ffcc;
+    border-color: #00ffcc;
+}
+.btn-outline-mint:hover {
+    background-color: #00ffcc;
+    color: #121212;
+}
+
+/* Background header mờ sành điệu */
+.event-header-bg {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-bottom: 1px solid #333;
+}
+.event-header-overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(to bottom, rgba(18,18,18,0.5), rgba(18,18,18,1));
+}
+
+/* Ảnh chính lồi lên trên nền */
+.event-main-img {
+    max-height: 350px;
+    border: 5px solid #fff;
+}
+
+/* Màu nền tối đậm hơn dark chuẩn của Bootstrap */
+.bg-secondary-dark {
+    background-color: #1e1e1e !important;
+}
+
+/* Các đoạn text đẹp hơn */
+.fs-5 {
+    line-height: 1.8;
+}
+
+/* Hiệu ứng accordion (nếu làm FAQ) */
+.accordion-button:not(.collapsed) {
+    background-color: #1e1e1e;
+    color: #00ffcc;
+}
